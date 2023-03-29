@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+
+:root {
+  --background: #3c3939;
+  --gray: #797d7f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+.container{
+  background-color: var(--background);
+  display:flex;
+  column-count: 3;
+  align-items:center; /*flex-start (?*/
+  justify-content:center;
+  min-height: 100vh;
+}
+
+.player{
+  width:550px;
+  height: 600px;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow:  -20px -20px 60px #333030,
+  20px 20px 60px #454242;
+  margin-right: 10px;
+}
+
+.player_controls{
+  display: flex;
+  width: 95%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.player__btn {
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  -20px -20px 60px #1b1a1a,
+  20px 20px 60px #252323;
+  color: var(--gray);
+}
+
+.player__btn:active{
+  box-shadow: inset -8px -8px 20px rgba(114, 109, 109, 0.6), 
+  inset -5px -5px 6px rgba(66, 54, 54, 0.6), 
+  inset 8px 8px 20px #0003, 
+  inset 5px 5px 6px #0001;;
+}
+.player__btn--small{
+  min-width: 50px;
+  min-height: 50px;
+  align-items:flex;
+}
+.player__title{
+  font-weight: 600;
+  font-size: 0.8em;
+  color:#a1a1a1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.titlePlaylist{
+  font-weight: 600;
+  font-size: 0.8em;
+  color:#a1a1a1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+.canciones{
+  overflow: auto;
+  font-weight: 300;
+  font-size: 0.8em;
+  color:#a1a1a1;
+  text-transform:lowercase;
+  letter-spacing: 2px;
+  margin: 0px;
+  margin-top: 5px;
+  /* cursor: pointer; */
+}
+.canciones::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.canciones::-webkit-scrollbar-thumb {
+  background-color:  #222222;
+  border-radius: 10px;
+}
+
+.canciones::-webkit-scrollbar-track {
+  background-color:#505050;
+  border-radius: 10px;
+}
+
+.player__album {
+  width: 300px;
+}
+.player__img{
+  border-radius: 5%;
+  box-shadow:  -20px -20px 60px #1b1a1a,
+  20px 20px 60px #252323;
+}
+.player__artist {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #a1a1a1;
+  opacity: 0.5;
+  margin: 20px 0px 0px 0px;
+}
+
+.player__song {
+  position: relative;
+  color: #a1a1a1;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.player__level {
+  width: 80%;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.player__level::-webkit-slider-runnable-track {
+  background-color: #505050;
+  height: 6px;
+  border-radius: 0px;
+}
+
+.player__level::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 100%;
+  background-color: #222222;
+  height: 18px;
+  width: 18px;
+  margin-top: -7px;
+}
+
+.audio-duration {
+  margin-top: -30px;
+  display: flex;
+  width: 78%;
+  font-size: 10px;
+  font-weight: 600;
+  color: #a1a1a1;
+  letter-spacing: 1px;
+}
+
+.start {
+  flex: 1;
+}
+
+.player__audio {
+  visibility: hidden;
+}
+
+.player__btn--medium {
+  min-height: 70px;
+  min-width: 70px;
+}
+
+.blue {
+  background-color: #000000;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+li{
+  margin-top: 100px;
+  white-space: nowrap;
+  margin-top: 9px;
+}ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.lista{
+ 
+  display:none;
+  width:300px;
+  height: 500px;
+  background-color: var(--background);
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow:  -20px -20px 60px #333030,
+  20px 20px 60px #454242;
+  margin-left: 10px;
+}

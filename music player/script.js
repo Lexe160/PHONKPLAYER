@@ -68,9 +68,59 @@ const songs = [
     url: "assets/media/WARNING  MC ORSEN Speed Up  Extended Edit.mp3",
     image: "assets/images/Warning (Speed up).jpg"
   },
+  {
+    name: "PHONKY TOWN ",
+    artist: "Playaphonk",
+    url: "assets/media/Playaphonk  PHONKY TOWN Audio.mp3",
+    image: "assets/images/PHONKY TOWN.jpg"
+  },
+  {
+    name: "Sahara ",
+    artist: "Hensonn",
+    url: "assets/media/Sahara.mp3",
+    image: "assets/images/Sahara.jpg"
+  },
+  {
+    name: "IMMACULATE ",
+    artist: "VISXGE ",
+    url: "assets/media/IMMACULATE.mp3",
+    image: "assets/images/IMMACULATE.jpg"
+  },
+  {
+    name: "RAPTURE ",
+    artist: "INTERWORLD  ",
+    url: "assets/media/RAPTURE.mp3",
+    image: "assets/images/RAPTURE.jpg"
+  },
+  {
+    name: "Devil Eyes ",
+    artist: "ZODIVK  ",
+    url: "assets/media/Devil Eyes.mp3",
+    image: "assets/images/Devil Eyes.jpg"
+  },
+  {
+    name: "RAGNAROK ",
+    artist: "chyxz   ",
+    url: "assets/media/RAGNAROK.mp3",
+    image: "assets/images/RAGNAROK.jpg"
+  },
+  {
+    name: "PLACEHOLDER ",
+    artist: "PLACEHOLDER   ",
+    url: "assets/media/PLACEHOLDER.mp3",
+    image: "assets/images/PLACEHOLDER.jpg"
+  },
+  {
+    name: "PLACEHOLDER ",
+    artist: "PLACEHOLDER   ",
+    url: "assets/media/PLACEHOLDER.mp3",
+    image: "assets/images/PLACEHOLDER.jpg"
+  },
+  
 
   // Agrega más canciones aquí
 ];
+//----------------------------------------------CODIGO---------------------------------------------------------
 for (let i = 0; i < songs.length; i++) {
   const cancion = songs[i];
 

@@ -4,17 +4,10 @@ const progressBar = document.querySelector(".player__level");
 const playerImage = document.querySelector(".player__img");
 const volumeUpButton = document.getElementById("volume-up");
 const volumeDownButton = document.getElementById("volume-down");
-const seekSlider = document.getElementById("barra");
 const lista = document.getElementById("listaHide");
 const listaCanciones = document.getElementById("lista-canciones");
 let currentSongIndex = 0; 
 const songs = [
-  {
-    name: "NEKO ARC ",
-    artist: "SI SE WACHO",
-    url: "assets/media/NecoArc sound effect.mp3",
-    image: "assets/images/neco-arc.jpg"
-  },
   {
     name: "Metamorphosis ",
     artist: "INTERWORLD",
@@ -39,6 +32,43 @@ const songs = [
     url: "assets/media/MoonDeity  NEON BLADE.mp3",
     image: "assets/images/NEON BLADE.jpg"
   },
+  {
+    name: "Басы долбят ",
+    artist: "SOSKA 69",
+    url: "assets/media/Басы долбят.mp3",
+    image: "assets/images/Басы долбят.jpg"
+  },
+  {
+    name: "MIDNIGHT ",
+    artist: "PLAYAMANE x Nateki",
+    url: "assets/media/MIDNIGHT.mp3",
+    image: "assets/images/MIDNIGHT.jpg"
+  },
+  {
+    name: "vendetta! ",
+    artist: "MUPP x Sadfriendd",
+    url: "assets/media/vendetta.mp3",
+    image: "assets/images/vendetta.jpg"
+  },
+  {
+    name: "SHADOW ",
+    artist: "MUPP x Sadfriendd",
+    url: "assets/media/ONIMXRU x SMITHMANE SHADOW.mp3",
+    image: "assets/images/SHADOW.jpg"
+  },
+  {
+    name: "SXND NXDES ",
+    artist: "GREEN ORXNGW x Send1",
+    url: "assets/media/GREEN ORXNGE x Send 1  SXND NXDES.mp3",
+    image: "assets/images/SXNDNXDXS.jpg"
+  },
+  {
+    name: "Warning (speed up) ",
+    artist: "MC ORSEN",
+    url: "assets/media/WARNING  MC ORSEN Speed Up  Extended Edit.mp3",
+    image: "assets/images/Warning (Speed up).jpg"
+  },
+
   // Agrega más canciones aquí
 ];
 for (let i = 0; i < songs.length; i++) {
@@ -134,7 +164,22 @@ function playPreviousSong() {
 
 loadSong(songs[currentSongIndex]);
 
-document.querySelector(".player__btn--medium.blue").addEventListener("click", () => {
+document.addEventListener("keydown", (event) => { //pausa o play si apreto la barra
+  if (event.code === "Space") {
+    if (audio.paused || audio.ended) {
+      playPause.querySelector(".pause-btn").classList.toggle("hide");
+      playPause.querySelector(".play-btn").classList.toggle("hide");  //deberia haber una forma de unir los dos, pero no se como
+      audio.play();
+    } else {
+      audio.pause();
+      playPause.querySelector(".pause-btn").classList.toggle("hide");
+      playPause.querySelector(".play-btn").classList.toggle("hide");
+    }
+  }
+});
+
+
+document.querySelector(".player__btn--medium.blue").addEventListener("click", () => {//pausa o play si hago click
   if (audio.paused || audio.ended) {
     playPause.querySelector(".pause-btn").classList.toggle("hide");
     playPause.querySelector(".play-btn").classList.toggle("hide");

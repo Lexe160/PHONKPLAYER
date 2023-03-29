@@ -1,0 +1,51 @@
+{"song":[ 
+   {    
+  "name": "Metamorphosis",    
+  "artist": "INTERWORLD",    
+  "url": "assets/media/METAMORPHOSIS.mp3",    
+  "image": "assets/images/portada.jpg"  }, 
+   {    
+    "name": "WAKE UP",    
+   "artist": "MoonDeity",    
+   "url": "assets/media/WAKE UP.mp3",    
+   "image": "assets/images/WakeUP.jpg"  },  
+   {   
+    "name": "MURDER IN MY MIND",    
+    "artist": "KORDHELL",    
+    "url": "assets/media/KORDHELL  MURDER IN MY MIND.mp3",    
+    "image": "assets/images/mimm.jpg"  },  
+   {   
+    "name": "NEON BLADE",    
+    "artist": "MoonDeity",    
+    "url": "assets/media/MoonDeity  NEON BLADE.mp3",    
+    "image": "assets/images/NEON BLADE.jpg"  }, 
+   {    
+    "name": "Басы долбят",    
+    "artist": "SOSKA 69",    
+    "url": "assets/media/Басы долбят.mp3",    
+    "image": "assets/images/Басы долбят.jpg"  },  
+   {    
+    "name": "MIDNIGHT",    
+    "artist": "PLAYAMANE x Nateki",    
+    "url": "assets/media/MIDNIGHT.mp3",    
+    "image": "assets/images/MIDNIGHT.jpg"  },  
+   {    
+    "name": "vendetta!",    
+    "artist": "MUPP x Sadfriendd",    
+    "url": "assets/media/vendetta.mp3",    
+    "image": "assets/images/vendetta.jpg"  },  
+    {    
+    "name": "SHADOW",    
+    "artist": "MUPP x Sadfriendd",    
+    "url": "assets/media/ONIMXRU x SMITHMANE SHADOW.mp3",    
+    "image": "assets/images/SHADOW.jpg"  },  
+    {    
+    "name": "SXND NXDES",    
+    "artist": "GREEN ORXNGW x Send1",    
+    "url": "assets/media/GREEN ORXNGE x Send 1  SXND NXDES.mp3",    
+    "image": "assets/images/SXNDNXDXS.jpg"  },  
+    {    
+    "name": "Warning (speed up)",    
+    "artist": "MC ORSEN",    
+    "url": "assets/media/WARNING  MC ORSEN Speed Up  Extended Edit.mp3",    
+    "image": "assets/images/Warning (Speed up).jpg"  }]}

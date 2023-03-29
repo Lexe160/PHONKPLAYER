@@ -86,9 +86,10 @@ img {
   color:#a1a1a1;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0px;
+  margin: 10px;
 }
 .canciones{
+  overflow: auto;
   font-weight: 300;
   font-size: 0.8em;
   color:#a1a1a1;
@@ -98,11 +99,21 @@ img {
   margin-top: 5px;
   /* cursor: pointer; */
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.canciones::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
+
+.canciones::-webkit-scrollbar-thumb {
+  background-color:  #222222;
+  border-radius: 10px;
+}
+
+.canciones::-webkit-scrollbar-track {
+  background-color:#505050;
+  border-radius: 10px;
+}
+
 .player__album {
   width: 300px;
 }
@@ -148,7 +159,7 @@ ul {
 .player__level::-webkit-slider-thumb {
   -webkit-appearance: none;
   border-radius: 100%;
-  background-color: #3a2c2c;
+  background-color: #222222;
   height: 18px;
   width: 18px;
   margin-top: -7px;
@@ -190,9 +201,17 @@ li:hover {
   cursor: pointer;
 }
 li{
+  margin-top: 100px;
+  white-space: nowrap;
   margin-top: 9px;
+}ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .lista{
+ 
   display:none;
   width:300px;
   height: 500px;
