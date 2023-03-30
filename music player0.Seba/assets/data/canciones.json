@@ -1,0 +1,16 @@
+{
+    "canciones": [
+      {
+        "name": "Metamorphosis",
+        "artist": "INTERWORLD",
+        "url": "assets/media/METAMORPHOSIS.mp3",
+        "image": "assets/images/portada.jpg"
+      },
+      {
+        "name": "WAKE UP",
+        "artist": "MoonDeity",
+        "url": "assets/media/WAKE UP.mp3",
+        "image": "assets/images/wake_up_portada.jpg"
+      }
+    ]
+  }

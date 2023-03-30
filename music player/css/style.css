@@ -40,6 +40,7 @@ img {
   box-shadow:  -20px -20px 60px #333030,
   20px 20px 60px #454242;
   margin-right: 10px;
+  position: absolute;
 }
 
 .player_controls{
@@ -224,4 +225,7 @@ li{
   box-shadow:  -20px -20px 60px #333030,
   20px 20px 60px #454242;
   margin-left: 10px;
+  position: relative;
+  left: 440px;
+
 }
