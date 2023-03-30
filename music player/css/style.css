@@ -107,6 +107,7 @@ img {
 .canciones::-webkit-scrollbar-thumb {
   background-color:  #222222;
   border-radius: 10px;
+  height: 10px;
 }
 
 .canciones::-webkit-scrollbar-track {

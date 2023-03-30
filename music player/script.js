@@ -105,18 +105,41 @@ const songs = [
     image: "assets/images/RAGNAROK.jpg"
   },
   {
-    name: "PLACEHOLDER ",
-    artist: "PLACEHOLDER   ",
-    url: "assets/media/PLACEHOLDER.mp3",
-    image: "assets/images/PLACEHOLDER.jpg"
+    name: "BONKERS ",
+    artist: "staplegun",
+    url: "assets/media/BONKERS.mp3",
+    image: "assets/images/BONKERS.jpg"
   },
   {
     name: "PLACEHOLDER ",
     artist: "PLACEHOLDER   ",
-    url: "assets/media/PLACEHOLDER.mp3",
-    image: "assets/images/PLACEHOLDER.jpg"
+    url: "assets/media/NecoArc sound effect.mp3",
+    image: "assets/images/neco-arc.jpg"
   },
-  
+  {
+    name: "PLACEHOLDER ",
+    artist: "PLACEHOLDER   ",
+    url: "assets/media/NecoArc sound effect.mp3",
+    image: "assets/images/neco-arc.jpg"
+  },
+  {
+    name: "PLACEHOLDER ",
+    artist: "PLACEHOLDER   ",
+    url: "assets/media/NecoArc sound effect.mp3",
+    image: "assets/images/neco-arc.jpg"
+  },
+  {
+    name: "PLACEHOLDER ",
+    artist: "PLACEHOLDER   ",
+    url: "assets/media/NecoArc sound effect.mp3",
+    image: "assets/images/neco-arc.jpg"
+  },
+  {
+    name: "PLACEHOLDER ",
+    artist: "PLACEHOLDER   ",
+    url: "assets/media/NecoArc sound effect.mp3",
+    image: "assets/images/neco-arc.jpg"
+  },
 
   // Agrega más canciones aquí
 ];
