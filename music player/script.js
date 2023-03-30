@@ -7,142 +7,12 @@ const volumeDownButton = document.getElementById("volume-down");
 const lista = document.getElementById("listaHide");
 const listaCanciones = document.getElementById("lista-canciones");
 let currentSongIndex = 0; 
-const songs = [
-  {
-    name: "Metamorphosis ",
-    artist: "INTERWORLD",
-    url: "assets/media/METAMORPHOSIS.mp3",
-    image: "assets/images/portada.jpg"
-  },
-  {
-    name: "WAKE UP ",
-    artist: "MoonDeity",
-    url: "assets/media/WAKE UP.mp3",
-    image: "assets/images/WakeUP.jpg"
-  },
-  {
-    name: "MURDER IN MY MIND ",
-    artist: "KORDHELL",
-    url: "assets/media/KORDHELL  MURDER IN MY MIND.mp3",
-    image: "assets/images/mimm.jpg"
-  },
-  {
-    name: "NEON BLADE ",
-    artist: "MoonDeity",
-    url: "assets/media/MoonDeity  NEON BLADE.mp3",
-    image: "assets/images/NEON BLADE.jpg"
-  },
-  {
-    name: "Басы долбят ",
-    artist: "SOSKA 69",
-    url: "assets/media/Басы долбят.mp3",
-    image: "assets/images/Басы долбят.jpg"
-  },
-  {
-    name: "MIDNIGHT ",
-    artist: "PLAYAMANE x Nateki",
-    url: "assets/media/MIDNIGHT.mp3",
-    image: "assets/images/MIDNIGHT.jpg"
-  },
-  {
-    name: "vendetta! ",
-    artist: "MUPP x Sadfriendd",
-    url: "assets/media/vendetta.mp3",
-    image: "assets/images/vendetta.jpg"
-  },
-  {
-    name: "SHADOW ",
-    artist: "MUPP x Sadfriendd",
-    url: "assets/media/ONIMXRU x SMITHMANE SHADOW.mp3",
-    image: "assets/images/SHADOW.jpg"
-  },
-  {
-    name: "SXND NXDES ",
-    artist: "GREEN ORXNGW x Send1",
-    url: "assets/media/GREEN ORXNGE x Send 1  SXND NXDES.mp3",
-    image: "assets/images/SXNDNXDXS.jpg"
-  },
-  {
-    name: "Warning (speed up) ",
-    artist: "MC ORSEN",
-    url: "assets/media/WARNING  MC ORSEN Speed Up  Extended Edit.mp3",
-    image: "assets/images/Warning (Speed up).jpg"
-  },
-  {
-    name: "PHONKY TOWN ",
-    artist: "Playaphonk",
-    url: "assets/media/Playaphonk  PHONKY TOWN Audio.mp3",
-    image: "assets/images/PHONKY TOWN.jpg"
-  },
-  {
-    name: "Sahara ",
-    artist: "Hensonn",
-    url: "assets/media/Sahara.mp3",
-    image: "assets/images/Sahara.jpg"
-  },
-  {
-    name: "IMMACULATE ",
-    artist: "VISXGE ",
-    url: "assets/media/IMMACULATE.mp3",
-    image: "assets/images/IMMACULATE.jpg"
-  },
-  {
-    name: "RAPTURE ",
-    artist: "INTERWORLD  ",
-    url: "assets/media/RAPTURE.mp3",
-    image: "assets/images/RAPTURE.jpg"
-  },
-  {
-    name: "Devil Eyes ",
-    artist: "ZODIVK  ",
-    url: "assets/media/Devil Eyes.mp3",
-    image: "assets/images/Devil Eyes.jpg"
-  },
-  {
-    name: "RAGNAROK ",
-    artist: "chyxz   ",
-    url: "assets/media/RAGNAROK.mp3",
-    image: "assets/images/RAGNAROK.jpg"
-  },
-  {
-    name: "BONKERS ",
-    artist: "staplegun",
-    url: "assets/media/BONKERS.mp3",
-    image: "assets/images/BONKERS.jpg"
-  },
-  {
-    name: "PLACEHOLDER ",
-    artist: "PLACEHOLDER   ",
-    url: "assets/media/NecoArc sound effect.mp3",
-    image: "assets/images/neco-arc.jpg"
-  },
-  {
-    name: "PLACEHOLDER ",
-    artist: "PLACEHOLDER   ",
-    url: "assets/media/NecoArc sound effect.mp3",
-    image: "assets/images/neco-arc.jpg"
-  },
-  {
-    name: "PLACEHOLDER ",
-    artist: "PLACEHOLDER   ",
-    url: "assets/media/NecoArc sound effect.mp3",
-    image: "assets/images/neco-arc.jpg"
-  },
-  {
-    name: "PLACEHOLDER ",
-    artist: "PLACEHOLDER   ",
-    url: "assets/media/NecoArc sound effect.mp3",
-    image: "assets/images/neco-arc.jpg"
-  },
-  {
-    name: "PLACEHOLDER ",
-    artist: "PLACEHOLDER   ",
-    url: "assets/media/NecoArc sound effect.mp3",
-    image: "assets/images/neco-arc.jpg"
-  },
 
-  // Agrega más canciones aquí
-];
+function cargarcan() {
+  return fetch('canciones.json')
+    .then(respuesta => respuesta.json());
+}
+cargarcan().then(songs => {
 //----------------------------------------------CODIGO---------------------------------------------------------
 for (let i = 0; i < songs.length; i++) {
   const cancion = songs[i];
@@ -166,6 +36,7 @@ for (let i = 0; i < songs.length; i++) {
  
   // Agregar evento click al elemento "li"
   li.addEventListener("click", function() {
+    currentSongIndex = i;
     audio.src = this.getAttribute("data-src");
     playerImage.src = cancion.image;
     document.querySelector(".player__artist").textContent = cancion.artist;
@@ -307,4 +178,5 @@ audio.addEventListener("timeupdate", () => {
   if(audio.currentTime >= audio.duration){
     playNextSong();
   }
+});
 });

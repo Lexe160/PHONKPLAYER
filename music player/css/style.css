@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
 
 :root {
-  --background: #3c3939;
+  --background: #3c3939; /* 3c3939*/
   --gray: #797d7f;
 }
 
@@ -37,8 +37,8 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  box-shadow:  -20px -20px 60px #333030,
-  20px 20px 60px #454242;
+  box-shadow:   20px 20px 60px #181717,
+  -20px -20px 60px #605b5b;
   margin-right: 10px;
   position: absolute;
 }
@@ -222,10 +222,10 @@ li{
   align-items: center; 
   justify-content: center;
   border-radius: 12px;
-  box-shadow:  -20px -20px 60px #333030,
-  20px 20px 60px #454242;
+  box-shadow:   20px 20px 60px #181717,
+  -20px -20px 60px #605b5b;
   margin-left: 10px;
   position: relative;
-  left: 440px;
+  left: 440px; /* 440px */
 
 }
