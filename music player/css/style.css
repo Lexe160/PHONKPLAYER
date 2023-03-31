@@ -194,7 +194,10 @@ img {
   background-color: #000000;
   color: #fff;
 }
-
+.shuffleon{
+  display: none;
+  color:white;
+}
 .hide {
   display: none;
 }
