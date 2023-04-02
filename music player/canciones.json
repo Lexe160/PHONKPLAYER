@@ -111,12 +111,13 @@
       "name": "INMORTAL ",
       "artist": "ARXMANE",
       "url": "assets/media/INMORTAL.mp3",
+      "url": "assets/media/IMMORTAL.mp3",
       "image": "assets/images/IMMORTAL.jpg"
     },
     {
       "name": "CHORUS ",
       "artist": "MC ORSEN, TAKESHI ",
-      "url": "assets/media/CHORUS.mp3",
+      "url": "assets/media/CHORUS.mp3", 
       "image": "assets/images/CHORUS.jpg"
     },
     {
