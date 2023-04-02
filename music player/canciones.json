@@ -103,33 +103,98 @@
     },
     {
       "name": "BANKAI ",
-      "artist": "PLACEHOLDER   ",
-      "url": "assets/media/NecoArc sound effect.mp3",
-      "image": "assets/images/neco-arc.jpg"
+      "artist": "AkaSSSuna     ",
+      "url": "assets/media/Bankai.mp3",
+      "image": "assets/images/Bankai.jpg"
     },
     {
       "name": "INMORTAL ",
       "artist": "ARXMANE",
-      "url": "assets/media/NecoArc sound effect.mp3",
-      "image": "assets/images/neco-arc.jpg"
+      "url": "assets/media/INMORTAL.mp3",
+      "image": "assets/images/IMMORTAL.jpg"
     },
     {
-      "name": "PLACEHOLDER1 ",
-      "artist": "PLACEHOLDER1   ",
-      "url": "assets/media/NecoArc sound effect.mp3",
-      "image": "assets/images/neco-arc.jpg"
+      "name": "CHORUS ",
+      "artist": "MC ORSEN, TAKESHI ",
+      "url": "assets/media/CHORUS.mp3",
+      "image": "assets/images/CHORUS.jpg"
     },
     {
-      "name": "PLACEHOLDER2 ",
-      "artist": "PLACEHOLDER2   ",
-      "url": "assets/media/NecoArc sound effect.mp3",
-      "image": "assets/images/neco-arc.jpg"
+      "name": "KILLERS FROM THE NORTHSIDE ",
+      "artist": "KORDHELL",
+      "url": "assets/media/KILLERS FROM THE NORTHSIDE.mp3",
+      "image": "assets/images/KILLERS FROM THE NORTHSIDE.jpg"
     },
     {
-      "name": "PLACEHOLDER3 ",
-      "artist": "PLACEHOLDER3   ",
-      "url": "assets/media/NecoArc sound effect.mp3",
-      "image": "assets/images/neco-arc.jpg"
+      "name": "Queen of Pain ",
+      "artist": "VOJ",
+      "url": "assets/media/Queen of Pain.mp3",
+      "image": "assets/images/Queen of Pain.jpg"
+    },
+    {
+      "name": "This Feeling ",
+      "artist": "my!lane",
+      "url": "assets/media/This Feeling.mp3",
+      "image": "assets/images/This Feeling.jpg"
+    },
+    {
+      "name": "Chase ",
+      "artist": "KSLV ",
+      "url": "assets/media/Chase.mp3",
+      "image": "assets/images/Chase.jpg"
+    },
+    {
+      "name": "OVERDO$E ",
+      "artist": "PHARMACIST",
+      "url": "assets/media/OVERDO$E.mp3",
+      "image": "assets/images/OVERDO$E.jpg"
+    },
+    {
+      "name": "PRINCE OF DARKNES ",
+      "artist": "Multiple artist",
+      "url": "assets/media/PRINCE OF DARKNESS.mp3",
+      "image": "assets/images/PRINCE OF DARKNES .jpg"
+    },
+    {
+      "name": "AVOID ME ",
+      "artist": "KUTE",
+      "url": "assets/media/AVOID ME.mp3",
+      "image": "assets/images/AVOID ME.jpg"
+    },
+    {
+      "name": "Override ",
+      "artist": "KSLV",
+      "url": "assets/media/Override.mp3",
+      "image": "assets/images/Override.jpg"
+    },
+    {
+      "name": " Live Another Day ",
+      "artist": "Kordhell ",
+      "url": "assets/media/Live Another Day.mp3",
+      "image": "assets/images/Live Another Day.jpg"
+    },
+    {
+      "name": "Suffer With Me ",
+      "artist": "líue",
+      "url": "assets/media/Suffer With Me.mp3",
+      "image": "assets/images/Suffer With Me.jpg"
+    },
+    {
+      "name": "Keraunos ",
+      "artist": "PlayaPhonk",
+      "url": "assets/media/Keraunos.mp3",
+      "image": "assets/images/Keraunos.jpg"
+    },
+    {
+      "name": "Limbo ",
+      "artist": "Freddie Dredd   ",
+      "url": "assets/media/Limbo.mp3",
+      "image": "assets/images/Limbo.jpg"
+    },
+    {
+      "name": "SUNRISE ",
+      "artist": "Xantesha",
+      "url": "assets/media/SUNRISE.mp3",
+      "image": "assets/images/SUNRISE.jpg"
     }
-
 ]

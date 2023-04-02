@@ -8,7 +8,7 @@ const lista = document.getElementById("listaHide");
 const listaCanciones = document.getElementById("lista-canciones");
 const shuffle = document.getElementById("shufflehide");
 var random = false;
-let currentSongIndex = 0; 
+let currentSongIndex = 0 // Math.floor(Math.random()*20);
 
 function cargarcan() {
   return fetch('canciones.json')
